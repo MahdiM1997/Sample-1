@@ -1,0 +1,45 @@
+### Node.js/React ###
+node_modules/       # Dependency directory (never commit this!)
+npm-debug.log*      # npm logs
+yarn-debug.log*     # Yarn logs
+yarn-error.log*     # Yarn error logs
+.pnpm-store/        # PNPM storage
+.pnp.*              # Yarn PnP files
+
+### Build/Artifacts ###
+dist/               # Bundled output (Vite/React)
+build/              # React production build
+.cache/             # Parcel/CRA cache
+.parcel-cache/      # Parcel cache
+.env.local          # Local environment variables
+.env.development    # Dev environment (if not shared)
+.env.production     # Prod environment (if not shared)
+.env.test           # Test environment
+
+### Editors/IDEs ###
+.DS_Store           # macOS metadata
+.idea/              # JetBrains IDE
+.vscode/            # VS Code settings
+*.swp               # Vim temp files
+*.swo               # Vim temp files
+
+### Testing/Logs ###
+coverage/           # Test coverage reports
+.nyc_output/        # NYC coverage data
+*.log               # General logs
+logs/               # Log directory
+
+### Bootstrap/Dev Tools ###
+.sass-cache/        # Sass cache (if using Sass)
+.asset-cache/       # Frontend build caches
+
+### Git ###
+.git-keep           # Empty placeholder (if not needed)
+.gitattributes      # Only ignore if not customizing
+
+_______my local data _____
+
+bootstrap-5.3.6
+imgs
+videos
+Icons-link.txt

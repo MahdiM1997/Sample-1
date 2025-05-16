@@ -1,0 +1,164 @@
+/* Google Fonts : poestson one , Releway , Barlow*/
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poetsen+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+
+/* whole site scheme color */
+:root {
+  --bg-lightblue: #1396f3;
+  --text-lightblue: #1396f3;
+  --bg-darkblue: #035894;
+  --text-darkblue: #035894;
+  --bg-darkpurple: #420078;
+  --text-darkpurple: #420078;
+}
+
+body {
+  font-family: "Raleway", sans-serif;
+}
+.poetson {
+  font-family: "Poetsen One", sans-serif;
+}
+
+.bg-lightblue {
+  background-color: var(--bg-lightblue);
+}
+.bg-darkblue {
+  background-color: var(--bg-darkblue);
+}
+.bg-darkpurple {
+  background-color: var(--bg-darkpurple);
+}
+.text-lightblue {
+  color: var(--text-lightblue);
+}
+.text-darkblue {
+  color: var(--text-darkblue);
+}
+.text-darkpurple {
+  color: var(--text-darkpurple);
+}
+
+/* Styling the navbar and navbar-nav */
+.navbar {
+  font-family: "Barlow", sans-serif;
+}
+.navbar[data-bs-theme="dark"] {
+  --bs-navbar-color: rgba(255, 255, 255, 1);
+}
+
+/* logo size */
+.logo-size {
+  width: 30px;
+  height: 30px;
+}
+
+/* dropdown menu customization */
+.dropdown-menu {
+  --bs-dropdown-min-width: 45rem;
+  --bs-dropdown-padding-x: 0.5rem;
+  --bs-dropdown-link-color: #fff;
+  --bs-dropdown-link-hover-color: #fff;
+  --bs-dropdown-link-hover-bg: var(--bg-darkblue);
+}
+
+@media (max-width: 991px) {
+  .dropdown-menu {
+    --bs-dropdown-min-width: 10rem;
+  }
+}
+
+/*Carousel Styling*/
+.carousel-h5 {
+  font-size: 6vw;
+}
+.space-carousel {
+  margin-top: 55px;
+}
+.carousel-caption {
+  font-size: 3vw;
+  bottom: 30%;
+}
+.carousel-indicators [data-bs-target] {
+  width: 70px;
+  height: 10px;
+}
+
+/* Footer customization */
+.footer-h4 {
+  font-size: 19px;
+}
+
+/* nav-pills font size */
+.font-pills {
+  font-size: 1.1rem;
+}
+
+/* Rounded-end and rounded-start interchanged responsive behaviour */
+/* since we changed the default settings of bootstrap now we can not use these classes in any other places. 
+it was better to create a another class for the and the edit it over ther */
+@media (max-width: 991px) {
+  .rounded-end {
+    border-top-right-radius: 0 !important;
+    border-bottom-right-radius: var(--bs-border-radius) !important;
+    border-bottom-left-radius: var(--bs-border-radius) !important;
+  }
+  .rounded-start {
+    border-bottom-left-radius: 0 !important;
+    border-top-left-radius: var(--bs-border-radius) !important;
+    border-top-right-radius: var(--bs-border-radius) !important;
+  }
+}
+
+/* masonry styles */
+.masonry-h {
+  height: 220vh;
+}
+.marginb-1 {
+  margin-bottom: 2%;
+}
+.ma-h-20 {
+  height: 19.5%;
+}
+.ma-h-25 {
+  height: 24.5%;
+}
+.ma-h-30 {
+  height: 29.5%;
+}
+.ma-h-35 {
+  height: 34.5%;
+}
+.ma-h-45 {
+  height: 44.5%;
+}
+.masonry-h img {
+  border-radius: 20px;
+}
+
+/* pricing styles */
+.spacer-top {
+  margin-top: 50px;
+}
+.negative-top {
+  margin-top: -40px;
+}
+
+.close-gap {
+  margin-top: -10px;
+}
+.basic-border {
+  border-color: var(--bg-lightblue) !important;
+}
+.premium-border {
+  border-color: var(--bg-darkpurple) !important;
+}
+.pro-border {
+  border-color: var(--bg-darkblue) !important;
+}
+.hover-button:hover {
+  background-color: black;
+}
+
+/* FAQ styling */
+.faq-bg-img {
+  background: url(imgs/img1.png);
+}
