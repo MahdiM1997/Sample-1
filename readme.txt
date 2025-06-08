@@ -3,7 +3,7 @@
 
 
 ## 🚀 Live Demo  
-**[View the Live Site](https://mahdim1997.github.io/Sample-1/)**  
+**[View the Live Site](https://mahdim1997.github.io/Sample-1/)  
 
 ---
 
